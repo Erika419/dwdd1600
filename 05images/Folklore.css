@@ -1,0 +1,207 @@
+body{
+    font-family: "Bitter", serif;
+    margin: 0;
+    background-color:#f5f5f5;
+}
+
+header{
+    background-color:#f5f5f5;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+/** The padding here is to set up the gray space **/
+
+header span{
+    color:#230b70;
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding-left: 41%;
+    padding-right: 41%;
+}
+/** The padding here is to align the title in the middle **/
+
+header p{
+    color:#725A7A;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 0.5;
+    text-align: center;
+
+}
+
+nav{
+    background-color: #725A7A;
+}
+
+nav ul{
+    margin:0;
+    list-style-type: none;
+    display: flex;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 42.5%;
+    padding-right: 42.5%;
+}
+/** padding-left: aligns the nav links in the middle of the page **/
+/** display flex: aligns the nav links next to eachother **/
+
+nav a{
+    text-align:center;
+    font-weight: 600;
+    padding: 1rem 1rem;
+    display: block;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color:#f5f5f5
+}
+/** padding: aligns the nav links next to eachother rather than underneath eachother **/
+/** display: makes the nav bar a thick box rather than a thin line **/
+/** text-decoration: removes the lines beneath the links **/
+
+nav a:hover{
+    color: #251813;
+}
+
+nav a:visited{
+    color: #230b70;
+}
+
+h1{
+    color: #725A7A;
+    text-align: center;
+    margin-bottom: -0.9%;
+}
+
+h2{
+    text-align: center;
+    color: #725A7A;
+    margin-bottom: -0.8%;
+}
+
+p{ 
+    margin: 0 auto;         
+    padding: 1rem;
+    text-align: justify;
+    max-width: 98%;
+}
+
+main ol{
+    margin: 0;
+    list-style-position: inside;
+    padding-left: 18%;
+    list-style-type: upper-roman;
+    text-align: center;
+}
+
+main li{
+    margin-bottom: 1%;
+    margin-top: -0.6%
+}
+/* puts space between bold section and term */
+
+main dt{
+    color: #230b70;
+}
+
+main dd{
+    margin-top: 0.3%;
+    margin-bottom: 2%;
+}
+/* puts space between term and definition*/
+
+address{
+margin: 0;
+display: flex; /* Use flexbox layout */
+justify-content: center; /* Center the items horizontally */
+list-style: none; /* Remove default list styling */
+padding: 0; /* Remove default padding */
+}
+/* formats the contact us section so it is in the middle of the page*/
+
+address ul{
+list-style-type: circle;
+}
+/* turns the bullet points of the contact us section into circles*/
+
+address a{
+    color:rgb(74, 111, 210);
+}
+/* turns the links of the contact us section blue*/
+
+.indexborder{
+color:white;
+font-style: normal;
+background-color: #725A7A;
+padding: 2rem;
+border-right: 15px;
+border-radius: 10px;
+border: 5px solid #230b70;
+width: 490px;
+}
+/* formats the border in the contact us section*/
+
+figure.exampletoy{
+    margin-right:1.1%;
+    float: right;
+    resize: 10%;
+}
+/* placement of the example toy image in the About Us Page*/
+
+figure.exampletoy img{
+    height:auto;
+    resize : 100%}
+/* formats size of the example toy image in the About Us Page*/
+
+figure.exampletoy figcaption{
+    text-align: center; 
+}
+/* formats figcaption of the example toy image in the About Us Page*/
+
+div.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem 1rem;    
+}
+/* formats images in the shopping section as a 4x4 list*/
+
+div.gallery figure{
+    margin: 2%;
+    text-align: center;
+    padding-top: 2%;
+}
+/* formats images in the shopping section */
+
+div.gallery figcaption{
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid black; 
+    margin-bottom: 7%;
+    padding: 4%;
+}
+/* formats creatures names in the shopping section */
+
+
+div.gallery p{
+    text-align:center;     
+    color: #725A7A; 
+    width: 200px; 
+    border: 1px solid black; 
+    height: auto; /* important */
+}
+/* formats pricing + description in the shopping section */
+
+
+
+
+footer{
+margin: 0;
+display: flex; /* Use flexbox layout */
+justify-content: center; /* Center the items horizontally */
+list-style: none; /* Remove default list styling */
+padding: 0; /* Remove default padding */
+clear:both; /* keeps footer below image in About Us page */
+}
+
+
+
