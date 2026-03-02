@@ -1,0 +1,150 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Erika Costecalde">
+    <meta name="description" content="Websites Main Page.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Folklore.css">
+    <title> Folklore of the world</title>
+</head>
+<body>
+    <!--This is the start of the header section.-->
+
+    <header>
+        <span>Folklore of the World</span>
+        <p>Where Monsters become Friends</p>
+    </header>
+
+    <!--This is the start of the navigation section.-->
+    <nav>
+        <ul>
+            <li class="current"><a href="index.html"> Index</a> </li>
+            <li class="current"> <a href="aboutus.html"> About Us</a> </li>
+            <li class="current"> <a href="shopping.html"> Shop</a> </li>
+            <li class="current"> <a href="creatures.html"> Creatures</a> </li>
+            <li class="active"> <a href="customtoys.html"> Shopping/Custom Toys</a> </li>
+        </ul>
+    </nav>
+
+    <!--This is the start of the main section-->
+    <main>
+        <h1>Shopping</h1>
+         <form class="formFormatting" method="get" class="myform" action="thanks.html">
+          
+            <fieldset>
+                <legend> Which Toy would you like to Buy?</legend>
+                <span>
+                <label><input type="checkbox" name="toytype" value="Dokkaebi"> Dokkaebi</label>
+                <label><input type="checkbox" name="toytype" value="Pontianack"> Pontianack</label>
+                <label><input type="checkbox" name="toytype" value="El Silbon"> El Silbon</label>
+                <label><input type="checkbox" name="toytype" value="Zombie"> Zombie</label>
+                <label><input type="checkbox" name="toytype" value="Selkie"> Selkie</label>
+                <label><input type="checkbox" name="toytype" value="Kikimora"> Kikimora</label>
+                <label><input type="checkbox" name="toytype" value="Yara-Ya-Ma-Who"> Yara-Ya-Ma-Who</label>
+                <label><input type="checkbox" name="toytype" value="Water Babies"> Water Babies</label>
+                </span>
+
+                <input class="submitButton" type="submit" value="Submit">
+            </fieldset>
+        </form>
+
+        <h1>Custom Toys</h1>
+
+        <form class="formFormatting" method="get" class="myform" action="thanks.html">
+          
+            <fieldset>
+                <legend> Explain What your Concept is: </legend>
+                <label> 
+                    <textarea name="comments"> Please add any special instructions </textarea>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend> Our Requirements </legend>
+                
+                <label>
+                    <div>
+                        <input type="radio" name="quality/price" value="Standard Tier"> Standard Tier
+                    </div>
+                    <p>
+                        This deal is typically specialized for plastic figurines or plushie. The toy will have a simple and minimal design. 
+                        These include basic facial features, 2 colors, and simple symbols. 
+                        It will also come with one small accessory, and a 1-2 sentence description about the creatures. 
+                        <span class="paragraphSpacing">
+                        <span>Cost: $30–$80</span> 
+                        <span>Time Requirement: 2-3 weeks</span> 
+                        </span>
+
+                    </p> 
+                </label>
+
+                <hr class="linebreakup">
+                <label>
+                    <div>
+                    <input type="radio" name="quality/price" value="Premium Tier"> Premium Tier
+                    </div>
+                    <p>
+                        This deal is typically specialized for plastic figurines, plushies, and electronics.
+                        This toy will have its face, head and body shape modified to your desire.
+                        It also comes with two accessories, 4 colors, and a 1-2 paragraph description about the creature. 
+                        <span class="paragraphSpacing">
+                        <span>Cost: $80–$110</span>
+                        <span>Time Requirement: 4-6 weeks</span>
+                        </span>
+                    </p>
+                </label>
+
+                <hr class="linebreakup">
+                <label>
+                    <div>
+                    <input type="radio" name="quality/price" value="Premium Tier"> Artisan Tier 
+                    </div>
+                    <p>
+                        This toy is typically specialized for plastic figurines/plushies/electronics/playsets. 
+                        It comes with custom-made detailing (runes, embroidery, metalwork, ectra), texture (scales, smooth skin, ectra), and clothing (everyday outfits, armour, ectra).
+                        It also comes with three accessories, 6 colors, and a booklet that describes the backstory, traits, and personality of the creature.
+                        <span class="paragraphSpacing">
+                        <span>Cost: $110-$160 </span>
+                        <span>Time Requirement: 8-12 weeks </span>
+                        </span>
+                        </p>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend> Type of Toy </legend>
+                <label> 
+                    <select name="toytype">
+                    <option value="none"> Please Select </option>
+                    <option value="plushie"> Plushie</option>
+                    <option value="electronic"> Electronic</option>
+                    <option value="poseable character"> Figurine</option>
+                    <option value="playset"> Playset</option>
+                </select>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend> Give us Your Contact Information </legend>
+                    <label>First Name*<input type="text" name="fname"required></label>
+                    <label>Last Name*<input type="text" name="lname"required></label>
+                    <label>Cell Number*<input type="tel" name="phone"required></label>
+                    <label>Email*<input type="text" name="mailto"required></label>
+            </fieldset>
+
+            <input class="submitButton" type="submit" value="Submit">
+        </form>
+    </main>
+
+    <!--This is the start of the Footer section-->
+    <footer>
+        <p>&copy; 2026 | Erika Costecalde | &bull; All Rights Reserved</p>
+    </footer>
+
+
+</body>
+</html>
