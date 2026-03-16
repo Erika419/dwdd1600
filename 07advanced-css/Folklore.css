@@ -194,13 +194,12 @@ width: 490px;
 figure.exampletoy{
     margin-right:1.1%;
     float: right;
-    resize: 10%;
 }
 /* placement of the example toy image in the About Us Page*/
 
 figure.exampletoy img{
     height:auto;
-    resize : 100%}
+}
 /* formats size of the example toy image in the About Us Page*/
 
 figure.exampletoy figcaption{
@@ -226,9 +225,10 @@ div.gallery figure{
 div.gallery figcaption{
     font-size: 20px;
     text-align: center;
-    border: 1px solid black; 
+    border: 3px solid black;  
     margin-bottom: 7%;
     padding: 4%;
+    
 }
 /* formats creatures names in the toys section */
 
@@ -238,12 +238,16 @@ div.gallery figcaption{
 /* formats the shadow in the toys section */
 
 
-div.gallery p{
+div.shoppingformat{
     text-align:center;     
-    color: #725A7A; 
     width: 200px; 
-    border: 1px solid black; 
+    border: 3px solid #725A7A;  
     height: auto; /* important */
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:10px;
+    padding-right:10px;
+    margin-top: 10%;
 }
 /* formats pricing + description in the toys section */
 
@@ -252,16 +256,20 @@ div.gallery p{
     display: block;
 }
 
-.paragraphSpacing{
-    display: flex;
-    flex-direction: column;
-    line-height:1.4;
-    margin-top: 12px;
+.paragraphSpacing span{
+    display:block;
+    line-height:0.7;
+    margin-top:12px;
 }
 
-.formFormatting p{
-    font-size: 18px;
+/* formats "cost" and "time required" sections of customtoys beneath eachother */
+
+.descriptionformatting{
+    display: block;
+    font-size: 20px;
     line-height: 1.4;
+    padding-left: 23px;
+    padding-top: 10px;
 }
 
 .formFormatting select{
@@ -312,7 +320,7 @@ div.gallery p{
 }
 /* formats how the textbox looks in the Custom Toys Page*/
 
-.formFormatting div{
+.titlefontsize{
     font-size: 18px;
     font-weight: bold;
 }
@@ -321,6 +329,8 @@ div.gallery p{
 .linebreakup{
     border-color:#26116b;
     border-width: 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 /* formats how the linebreakup of "Our Requirements" section in the Custom Toys Page and Creatures Page*/
 

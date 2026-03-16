@@ -16,7 +16,7 @@
     <!--This is the start of the header section.-->
 
     <header>
-        <img src="images/logo.png" alt="logo" height="75px" width="75px" class="logo">
+        <img src="images/logo.png" alt="logo" height="75" width="75" class="logo">
         <span>Folklore of the World</span>
         <p>Where Monsters become Friends</p>
     </header>
@@ -35,7 +35,7 @@
     <!--This is the start of the main section-->
     <main>
         <h1>Shopping</h1>
-         <form class="formFormatting" method="get" class="myform" action="thanks.html">
+         <form class="formFormatting" method="get"  action="thanks.html">
           
             <fieldset>
                 <legend> Which Toy would you like to Buy?</legend>
@@ -56,7 +56,7 @@
 
         <h1>Custom Toys</h1>
 
-        <form class="formFormatting" method="get" class="myform" action="thanks.html">
+        <form class="formFormatting" method="get" action="thanks.html">
           
             <fieldset>
                 <legend> Explain What your Concept is: </legend>
@@ -69,27 +69,28 @@
                 <legend> Our Requirements </legend>
                 
                 <label>
-                    <div>
-                        <input type="radio" name="quality/price" value="Standard Tier"> Standard Tier
-                    </div>
-                    <p>
+                    <span class="titlefontsize">
+                    <input type="radio" name="quality/price" value="Standard Tier"> Standard Tier
+                    </span>
+                    <span class="descriptionformatting">
                         This deal is typically specialized for plastic figurines or plushie. The toy will have a simple and minimal design. 
                         These include basic facial features, 2 colors, and simple symbols. 
                         It will also come with one small accessory, and a 1-2 sentence description about the creatures. 
+                    
                         <span class="paragraphSpacing">
-                        <span>Cost: $30–$80</span> 
-                        <span>Time Requirement: 2-3 weeks</span> 
+                        <span>Cost: $30–$80</span>
+                        <span>Time Requirement: 2-3 weeks</span>
                         </span>
+                    </span> 
 
-                    </p> 
                 </label>
 
                 <hr class="linebreakup">
                 <label>
-                    <div>
+                    <span class="titlefontsize">
                     <input type="radio" name="quality/price" value="Premium Tier"> Premium Tier
-                    </div>
-                    <p>
+                    </span>
+                    <span class="descriptionformatting">
                         This deal is typically specialized for plastic figurines, plushies, and electronics.
                         This toy will have its face, head and body shape modified to your desire.
                         It also comes with two accessories, 4 colors, and a 1-2 paragraph description about the creature. 
@@ -97,15 +98,15 @@
                         <span>Cost: $80–$110</span>
                         <span>Time Requirement: 4-6 weeks</span>
                         </span>
-                    </p>
+                    </span>
                 </label>
 
                 <hr class="linebreakup">
                 <label>
-                    <div>
+                    <span class="titlefontsize">
                     <input type="radio" name="quality/price" value="Premium Tier"> Artisan Tier 
-                    </div>
-                    <p>
+                    </span>
+                    <span class="descriptionformatting">
                         This toy is typically specialized for plastic figurines/plushies/electronics/playsets. 
                         It comes with custom-made detailing (runes, embroidery, metalwork, ectra), texture (scales, smooth skin, ectra), and clothing (everyday outfits, armour, ectra).
                         It also comes with three accessories, 6 colors, and a booklet that describes the backstory, traits, and personality of the creature.
@@ -113,7 +114,8 @@
                         <span>Cost: $110-$160 </span>
                         <span>Time Requirement: 8-12 weeks </span>
                         </span>
-                        </p>
+                    </span>
+                    
                 </label>
             </fieldset>
 
@@ -132,10 +134,10 @@
 
             <fieldset>
                 <legend> Give us Your Contact Information </legend>
-                    <label>First Name*<input type="text" name="fname"required></label>
-                    <label>Last Name*<input type="text" name="lname"required></label>
-                    <label>Cell Number*<input type="tel" name="phone"required></label>
-                    <label>Email*<input type="text" name="mailto"required></label>
+                    <label>First Name*<input type="text" name="fname" required></label>
+                    <label>Last Name*<input type="text" name="lname" required></label>
+                    <label>Cell Number*<input type="tel" name="phone" required></label>
+                    <label>Email*<input type="text" name="mailto" required></label>
             </fieldset>
 
             <input class="submitButton" type="submit" value="Submit">
